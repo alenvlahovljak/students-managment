@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Context antiJARLocking="true" path="/webapp">
+    <Resource name="jdbc/web_student_tracker"
+              auth="Container" type="javax.sql.DataSource"
+              factory="org.apache.tomcat.jdbc.pool.DataSourceFactory"
+              maxActive="100" maxIdle="30" maxWait="10000"
+              username="alen" password="alen12345678"
+              driverClassName="com.mysql.cj.jdbc.Driver"
+              url="jdbc:mysql://127.0.0.1:3306/web_student_tracker?useUnicode=true&#38;characterEncoding=UTF-8&#38;zeroDateTimeBehavior=CONVERT_TO_NULL&#38;serverTimezone=GMT"/>
+</Context>
